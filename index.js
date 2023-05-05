@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const router = require("./routes/Notifications");
+const router = require("../routes/Notifications");
 const normalizePort = (port) => parseInt(port, 10);
 const PORT = normalizePort(process.env.PORT) || 3001;
 
